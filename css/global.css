@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+  	scroll-behavior: smooth;
+}
+
+main {
+  	width: 85%;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+section.navigation {
+	width: 100%;
+	height: 10vh;
+	padding-top: 3%;
+	display: block;
+}
+
+.navlogo {
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+.navlogo img {
+	width: 90%;
+	height: auto;
+}
+
+.navsearch {
+	width: 45%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+}
+
+.navsearch h2 {
+	border: solid  2px #e50a17;
+	border-radius: 25px;
+	padding: 2% 0% 2% 5%;
+	font-weight: 300;
+}
+
+.navpage {
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+
+.navpage h2 {
+	float: right;
+	font-weight: 300;
+	margin-left: 10%;
+	margin-top: 3%;
+}
+
+.navpage h2:hover {
+	color: #e50a17;
+}
+
+section.landing1 {
+	width: 100%;
+	height: 90vh;
+	margin-top: 3%;
+}
+
+.left1 {
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+
+.heading1 {
+	width: 100%;
+	height: 40%;
+	padding-top: 15%;
+}
+
+.heading2 {
+	width: 100%;
+	height: 5%;
+	margin-top: 5%;
+}
+
+.heading2 img {
+	height: 50%;
+	margin-right: 2%;	
+	float: left;
+}
+
+.heading2 h2{
+	margin-right: 5%;
+	float: left;
+	font-weight: 500;
+}
+
+.heading3 {
+	width: 40%;
+	margin-top: 20%;
+}
+
+.heading3 h2{
+	border: solid  2px #e50a17;
+	border-radius: 25px;
+	text-align: center;
+	padding: 10px 0px;
+	font-weight: 400;
+}
+
+.heading3 h2:hover {
+	background-color: #e50a17;
+	color: white;
+}
+
+.left2 {
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+
+.left2 img {
+	width: 100%;
+	height: auto;
+}
+
+section.produk {
+	width: 100%;
+	height: 50vh;
+	background-color: #E50A17;
+}
